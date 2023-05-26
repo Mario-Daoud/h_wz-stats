@@ -1,10 +1,12 @@
 const express = require("express");
 const fs = require("fs");
+const cors = require("cors");
 
 const app = express();
 const PORT = 3000;
 
 app.use(express.json());
+app.use(cors());
 
 app.get("/api/players", (req, res) => {
   fs.readFile("playerData.json", (err, data) => {
@@ -29,12 +31,10 @@ app.get("/api/players/:name/:tag/:platform", (req, res) => {
     }
 
     const playerData = JSON.parse(data);
-    console.log(playerIdentifier)
     const player = playerData.find(
       (player) =>
-        player.data.username.toLowerCase() === playerIdentifier.toLowerCase()
-        &&
-        player.data.platform === req.params.platform
+        player.data.username.toLowerCase() === playerIdentifier.toLowerCase() &&
+        player.data.platform.toLowerCase() === req.params.platform.toLowerCase()
     );
 
     if (player) {
