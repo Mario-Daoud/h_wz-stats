@@ -1,0 +1,342 @@
+[
+  {
+    "status": "success",
+    "data": {
+      "title": "Call of Duty: Warzone",
+      "platform": "Acitivision",
+      "username": "FARO#7420497",
+      "type": "wz2",
+      "level": 55,
+      "maxLevel": 155,
+      "levelXpRemainder": 1000,
+      "levelXpGained": 15000,
+      "prestige": 1,
+      "prestigeId": 2,
+      "maxPrestige": 10,
+      "totalXp": 1000000,
+      "paragonRank": 10,
+      "paragonId": 100,
+      "s": 5000,
+      "p": 2500,
+      "lifetime": {
+        "all": {
+          "wins": 50,
+          "kills": 2000,
+          "deaths": 1500,
+          "kdRatio": 1.33
+        },
+        "mode": {
+          "battleRoyale": {
+            "wins": 25,
+            "kills": 1000,
+            "deaths": 800,
+            "kdRatio": 1.25
+          },
+          "plunder": {
+            "wins": 25,
+            "kills": 1000,
+            "deaths": 700,
+            "kdRatio": 1.5
+          }
+        },
+        "map": {
+          "alMazrah": {
+            "wins": 20,
+            "kills": 800,
+            "deaths": 600,
+            "kdRatio": 1.33
+          },
+          "ashikaIsland": {
+            "wins": 5,
+            "kills": 200,
+            "deaths": 150,
+            "kdRatio": 1.33
+          }
+        }
+      },
+      "weekly": {
+        "all": {
+          "wins": 10,
+          "kills": 400,
+          "deaths": 300,
+          "kdRatio": 1.33
+        },
+        "mode": {},
+        "map": {}
+      },
+      "engagement": "High"
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "title": "Call of Duty: Warzone",
+      "platform": "Xbox Series X",
+      "username": "GHOST#9512368",
+      "type": "wz2",
+      "level": 105,
+      "maxLevel": 155,
+      "levelXpRemainder": 2000,
+      "levelXpGained": 25000,
+      "prestige": 3,
+      "prestigeId": 5,
+      "maxPrestige": 10,
+      "totalXp": 2000000,
+      "paragonRank": 15,
+      "paragonId": 200,
+      "s": 7500,
+      "p": 3500,
+      "lifetime": {
+        "all": {
+          "wins": 75,
+          "kills": 3000,
+          "deaths": 2000,
+          "kdRatio": 1.5
+        },
+        "mode": {
+          "battleRoyale": {
+            "wins": 40,
+            "kills": 2000,
+            "deaths": 1500,
+            "kdRatio": 1.33
+          },
+          "plunder": {
+            "wins": 35,
+            "kills": 1000,
+            "deaths": 700,
+            "kdRatio": 1.75
+          }
+        },
+        "map": {
+          "alMazrah": {
+            "wins": 30,
+            "kills": 1200,
+            "deaths": 800,
+            "kdRatio": 1.5
+          },
+          "ashikaIsland": {
+            "wins": 10,
+            "kills": 400,
+            "deaths": 300,
+            "kdRatio": 1.33
+          }
+        }
+      },
+      "weekly": {
+        "all": {
+          "wins": 15,
+          "kills": 600,
+          "deaths": 400,
+          "kdRatio": 1.5
+        },
+        "mode": {},
+        "map": {}
+      },
+      "engagement": "Medium"
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "title": "Call of Duty: Warzone",
+      "platform": "Steam",
+      "username": "RAVEN#7894561",
+      "type": "wz2",
+      "level": 75,
+      "maxLevel": 155,
+      "levelXpRemainder": 1500,
+      "levelXpGained": 20000,
+      "prestige": 2,
+      "prestigeId": 3,
+      "maxPrestige": 10,
+      "totalXp": 1500000,
+      "paragonRank": 12,
+      "paragonId": 150,
+      "s": 6000,
+      "p": 3000,
+      "lifetime": {
+        "all": {
+          "wins": 60,
+          "kills": 2500,
+          "deaths": 1800,
+          "kdRatio": 1.38
+        },
+        "mode": {
+          "battleRoyale": {
+            "wins": 30,
+            "kills": 1500,
+            "deaths": 1200,
+            "kdRatio": 1.25
+          },
+          "plunder": {
+            "wins": 30,
+            "kills": 1000,
+            "deaths": 600,
+            "kdRatio": 1.67
+          }
+        },
+        "map": {
+          "alMazrah": {
+            "wins": 25,
+            "kills": 1000,
+            "deaths": 700,
+            "kdRatio": 1.43
+          },
+          "ashikaIsland": {
+            "wins": 5,
+            "kills": 500,
+            "deaths": 400,
+            "kdRatio": 1.25
+          }
+        }
+      },
+      "weekly": {
+        "all": {
+          "wins": 12,
+          "kills": 500,
+          "deaths": 350,
+          "kdRatio": 1.42
+        },
+        "mode": {},
+        "map": {}
+      },
+      "engagement": "Low"
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "title": "Call of Duty: Warzone",
+      "platform": "Xbox Series X",
+      "username": "GUNSLINGER#8932156",
+      "type": "wz2",
+      "level": 85,
+      "maxLevel": 155,
+      "levelXpRemainder": 500,
+      "levelXpGained": 25000,
+      "prestige": 2,
+      "prestigeId": 5,
+      "maxPrestige": 10,
+      "totalXp": 2000000,
+      "paragonRank": 20,
+      "paragonId": 200,
+      "s": 8000,
+      "p": 3500,
+      "lifetime": {
+        "all": {
+          "wins": 100,
+          "kills": 4000,
+          "deaths": 3000,
+          "kdRatio": 1.33
+        },
+        "mode": {
+          "battleRoyale": {
+            "wins": 50,
+            "kills": 2000,
+            "deaths": 1500,
+            "kdRatio": 1.25
+          },
+          "plunder": {
+            "wins": 50,
+            "kills": 2000,
+            "deaths": 1700,
+            "kdRatio": 1.18
+          }
+        },
+        "map": {
+          "alMazrah": {
+            "wins": 40,
+            "kills": 1600,
+            "deaths": 1200,
+            "kdRatio": 1.33
+          },
+          "ashikaIsland": {
+            "wins": 10,
+            "kills": 400,
+            "deaths": 300,
+            "kdRatio": 1.33
+          }
+        }
+      },
+      "weekly": {
+        "all": {
+          "wins": 20,
+          "kills": 800,
+          "deaths": 600,
+          "kdRatio": 1.33
+        },
+        "mode": {},
+        "map": {}
+      },
+      "engagement": "Medium"
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "title": "Call of Duty: Warzone",
+      "platform": "PlayStation 5",
+      "username": "SHADOWSTRIKE#6178942",
+      "type": "wz2",
+      "level": 155,
+      "maxLevel": 155,
+      "levelXpRemainder": 0,
+      "levelXpGained": 100000,
+      "prestige": 10,
+      "prestigeId": 10,
+      "maxPrestige": 10,
+      "totalXp": 5000000,
+      "paragonRank": 50,
+      "paragonId": 500,
+      "s": 10000,
+      "p": 5000,
+      "lifetime": {
+        "all": {
+          "wins": 200,
+          "kills": 8000,
+          "deaths": 6000,
+          "kdRatio": 1.33
+        },
+        "mode": {
+          "battleRoyale": {
+            "wins": 100,
+            "kills": 4000,
+            "deaths": 3000,
+            "kdRatio": 1.25
+          },
+          "plunder": {
+            "wins": 100,
+            "kills": 4000,
+            "deaths": 3500,
+            "kdRatio": 1.14
+          }
+        },
+        "map": {
+          "alMazrah": {
+            "wins": 80,
+            "kills": 3200,
+            "deaths": 2400,
+            "kdRatio": 1.33
+          },
+          "ashikaIsland": {
+            "wins": 20,
+            "kills": 800,
+            "deaths": 600,
+            "kdRatio": 1.33
+          }
+        }
+      },
+      "weekly": {
+        "all": {
+          "wins": 30,
+          "kills": 1200,
+          "deaths": 900,
+          "kdRatio": 1.33
+        },
+        "mode": {},
+        "map": {}
+      },
+      "engagement": "High"
+    }
+  }
+]
