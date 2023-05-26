@@ -1,0 +1,13 @@
+
+.searchbar-input {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}

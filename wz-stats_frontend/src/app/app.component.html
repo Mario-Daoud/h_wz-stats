@@ -1,0 +1,15 @@
+<header [ngClass]="{ 'header-scroll': scrolled }">
+  <a (click)="scrollToComponent('landingpage')" class="logo">WZ-STATS</a>
+
+  <ul class="navlist">
+    <li><a (click)="scrollToComponent('landingpage')">Home</a></li>
+    <li><a (click)="scrollToComponent('aboutpage')">About</a></li>
+    <li><a (click)="scrollToComponent('statistics')">Statistics</a></li>
+    <li><a (click)="scrollToComponent('contact')">Contact</a></li>
+  </ul>
+  <div class="bx bx-menu" id="menu-icon" (click)="toggleMenu()"></div>
+</header>
+
+<app-landingpage id="landingpage"></app-landingpage>
+<app-aboutpage id="aboutpage"></app-aboutpage>
+<app-statspage id="statistics"></app-statspage>

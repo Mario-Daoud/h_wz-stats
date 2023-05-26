@@ -1,0 +1,92 @@
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 9%;
+  background: transparent;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist a {
+  color: white;
+  margin-left: 60px;
+  padding-bottom: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 500ms ease;
+}
+
+.navlist a:hover {
+  border-bottom: 2px solid lightblue;
+  cursor: pointer;
+}
+
+#menu-icon {
+  color: white;
+  font-size: 35px;
+  z-index: 1001;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 990px) {
+  #menu-icon {
+    display: block;
+  }
+
+  .navlist {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 3000px;
+    height: max-content;
+    background: #0e1424;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    transition: all 500ms ease;
+    width: 30%;
+  }
+
+  .navlist a {
+    margin-left: 0;
+    display: block;
+    margin: 7px 0;
+  }
+
+  .navlist.open {
+    right: 0;
+  }
+}
+
+.header-scroll {
+  background-color: rgba(14, 20, 36, 0.1);
+  backdrop-filter: blur(6px);
+  transition: all 500ms ease-in;
+}
+
+.activeScrollLink {
+  border-bottom: 2px solid lightblue;
+}

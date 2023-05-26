@@ -1,0 +1,264 @@
+.hero {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-img img {
+  width: auto;
+  height: 650px;
+}
+
+section {
+  padding: 0 19%;
+}
+
+.hero-text h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.hero-text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 90px;
+  line-height: 1;
+  color: white;
+  margin: 0;
+}
+
+.hero-text p {
+  color: white;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 40px;
+}
+
+.hero-text a:not(.install) {
+  display: inline-block;
+  color: white;
+  background: #1f2b4d;
+  border: 1px solid transparent;
+  padding: 15px 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+}
+
+.hero-compare-text {
+  margin-right: 5px;
+}
+
+.hero-compare-text:hover {
+  cursor: pointer;
+}
+
+.install {
+  color: white;
+}
+
+.install:hover {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
+.hero-text a:hover {
+  background: transparent;
+  border: 1px solid white;
+  transform: translateY(-2px);
+}
+
+.hero-text a.ctaa {
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid white;
+}
+
+.hero-text a.ctaa i {
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  padding: 0 9%;
+  transform: translateY(-50%);
+}
+
+.icons i {
+  display: block;
+  margin: 26px 0;
+  font-size: 24px;
+  color: white;
+  transition: all 500ms ease;
+}
+
+.icons i:hover {
+  color: lightblue;
+  transform: translateY(-5px);
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 6%;
+  right: 9%;
+}
+
+.scroll-down:hover {
+  cursor: pointer;
+}
+
+.scroll-down i {
+  display: block;
+  padding: 12px;
+  font-size: 25px;
+  color: white;
+  background: #0e1424;
+  border-radius: 30px;
+  transition: all 500ms ease;
+}
+
+.scroll-down i:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 1535px) {
+  header {
+    padding: 15px 3%;
+    transition: 0.2s;
+  }
+
+  .icons {
+    padding: 0 3%;
+    transition: 0.2s;
+  }
+
+  .scroll-down {
+    right: 3%;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1460px) {
+  section {
+    padding: 0 12%;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1340px) {
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-text h1 {
+    font-size: 75px;
+    margin: 0 0 30px;
+  }
+}
+
+@media (max-width: 1195px) {
+  section {
+    padding: 0 3%;
+    transition: 0.2s;
+  }
+
+  .hero-text {
+    padding-top: 115px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-img {
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 560px;
+    height: auto;
+  }
+
+  .hero {
+    height: 100%;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .hero-text {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero-img img {
+    width: 100%;
+    height: auto;
+  }
+  .hero-text a:not(.install) {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-height: 800px) {
+  .hero-img img {
+    width: auto;
+    height: 500px;
+  }
+
+  .hero-text {
+    padding-top: 85px;
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 50px;
+    margin: 0 0 30px;
+  }
+}
+
+@media (max-height: 485px) {
+  .hero-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-text {
+    font-size: 0.2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+    margin: 0 0 30px;
+  }
+}

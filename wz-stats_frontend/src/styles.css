@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html, body {
+  background: linear-gradient(
+    245.5deg,
+    #1f2840 0%,
+    #1f2b4d 28.53%,
+    #0e1424 75.52%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  background: #0e1424;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: lightblue;
+}
+
+::-webkit-scrollbar-corner {
+  border-radius: 4px;
+  background-color: lightblue;
+}
