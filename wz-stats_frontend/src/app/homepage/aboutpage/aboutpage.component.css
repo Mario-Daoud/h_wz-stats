@@ -65,6 +65,7 @@ section {
   .about-img img {
     height: 400px;
   }
+
 }
 
 @media (max-width: 895px) {

@@ -27,11 +27,11 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 4px;
+  border-radius: 1px;
   background-color: lightblue;
 }
 
 ::-webkit-scrollbar-corner {
-  border-radius: 4px;
+  border-radius: 1px;
   background-color: lightblue;
 }

@@ -90,3 +90,18 @@ header {
 .activeScrollLink {
   border-bottom: 2px solid lightblue;
 }
+
+.footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: right;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  color: #888;
+}

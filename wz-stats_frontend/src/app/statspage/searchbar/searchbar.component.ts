@@ -1,13 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { PlayerService } from 'src/app/core/service/player.service';
 import { Player } from 'src/app/shared/player/player.model';
+import ScrollReveal from 'scrollreveal';
 
 @Component({
   selector: 'app-searchbar',
   templateUrl: './searchbar.component.html',
   styleUrls: ['./searchbar.component.css'],
 })
-export class SearchbarComponent {
+export class SearchbarComponent implements OnInit {
+  ngOnInit() {
+    const sr = ScrollReveal({
+      distance: '65px',
+      duration: 2600,
+      delay: 150,
+      reset: true,
+    });
+
+    sr.reveal('.stats-head', { delay: 200, origin: 'top' });
+    sr.reveal('.searchbar-input', { delay: 200, origin: 'bottom' });
+  }
+
   playerName: string;
   playerStats: Player;
 

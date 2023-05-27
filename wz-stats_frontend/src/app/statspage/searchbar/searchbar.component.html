@@ -1,14 +1,21 @@
 <div class="container">
   <div class="stats-head">
-    <h1>Search Stats</h1>
-    <p>Enter player's username to check their stats</p>
+    <h1>Check Stats</h1>
+    <p>Enter a player's username to check their stats</p>
   </div>
   <div class="searchbar-input">
     <input
-      (keyup)="getPlayerStats()"
       [(ngModel)]="playerName"
       type="text"
-      placeholder="Enter Activision ID or Battle.net Username"
+      placeholder="Enter Tag"
     />
+    <button (click)="getPlayerStats()"
+    >SEARCH</button>
+    <div class="platform-select">
+      <div>
+        PTF
+      </div>
+    </div>
   </div>
+  
 </div>

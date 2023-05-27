@@ -6,7 +6,7 @@ import ScrollReveal from 'scrollreveal';
   templateUrl: './aboutpage.component.html',
   styleUrls: ['./aboutpage.component.css']
 })
-export class AboutpageComponent  implements OnInit {
+export class AboutpageComponent implements OnInit {
   ngOnInit() {
     const sr = ScrollReveal({
       distance: '140px',
