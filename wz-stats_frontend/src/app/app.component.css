@@ -14,9 +14,13 @@ header {
 }
 
 .logo {
-  font-size: 30px;
-  font-weight: 700;
-  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 2.5rem;
+  width: auto;
 }
 
 .logo:hover {

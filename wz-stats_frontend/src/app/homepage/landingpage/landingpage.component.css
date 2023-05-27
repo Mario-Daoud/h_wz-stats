@@ -230,7 +230,7 @@ section {
   }
 }
 
-@media (max-height: 800px) {
+@media (max-width: 800px) {
   .hero-img img {
     width: auto;
     height: 500px;
@@ -247,10 +247,10 @@ section {
   }
 }
 
-@media (max-height: 485px) {
+@media (max-width: 485px) {
   .hero-img img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    height: auto;;
   }
 
   .hero-text {

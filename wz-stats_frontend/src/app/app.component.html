@@ -1,11 +1,10 @@
 <header [ngClass]="{ 'header-scroll': scrolled }">
-  <a (click)="scrollToComponent('landingpage')" class="logo">WZ-STATS</a>
+  <a (click)="scrollToComponent('landingpage')" class="logo"><img src="/assets/images/warzone logo.png" alt="wz logo"></a>
 
   <ul class="navlist">
     <li><a (click)="scrollToComponent('landingpage')">Home</a></li>
     <li><a (click)="scrollToComponent('aboutpage')">About</a></li>
     <li><a (click)="scrollToComponent('statistics')">Statistics</a></li>
-    <li><a (click)="scrollToComponent('contact')">Contact</a></li>
   </ul>
   <div class="bx bx-menu" id="menu-icon" (click)="toggleMenu()"></div>
 </header>

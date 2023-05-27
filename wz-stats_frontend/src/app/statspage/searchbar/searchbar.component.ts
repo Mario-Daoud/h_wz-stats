@@ -30,6 +30,10 @@ export class SearchbarComponent implements OnInit {
   constructor(private playerService: PlayerService) {}
 
   getPlayerStats(): void {
+    if (this.playerName == null || this.playerName == '') {
+      return;
+    }
+    
     const name = this.playerName.split('#')[0];
     const tag = this.playerName.split('#')[1];
     const platform = this.playerPlatform;
@@ -42,10 +46,17 @@ export class SearchbarComponent implements OnInit {
     var dropdownContent = document.getElementsByClassName(
       'dropdown-content'
     )[0] as HTMLElement;
+
     if (dropdownContent.style.display === 'block') {
-      dropdownContent.style.display = 'none';
+      dropdownContent.style.opacity = '0';
+      setTimeout(() => {
+        dropdownContent.style.display = 'none';
+      }, 300);
     } else {
       dropdownContent.style.display = 'block';
+      setTimeout(() => {
+        dropdownContent.style.opacity = '1';
+      }, 300);
     }
   }
 
