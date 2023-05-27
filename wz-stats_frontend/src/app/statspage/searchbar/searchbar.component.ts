@@ -20,7 +20,7 @@ export class SearchbarComponent implements OnInit {
     sr.reveal('.stats-head', { delay: 200, origin: 'top' });
     sr.reveal('.searchbar-input', { delay: 200, origin: 'bottom' });
 
-    this.selectImage = '/assets/images/platform-icons/platform-icon.png';
+    this.selectImage = '/assets/images/platform-icons/platform.png';
   }
   playerName: string;
   playerStats: Player;
@@ -57,8 +57,7 @@ export class SearchbarComponent implements OnInit {
 
     dropdownContent.style.display = 'none';
 
-    this.selectImage =
-      '/assets/images/platform-icons/' + platform + '-icon.png';
+    this.selectImage = '/assets/images/platform-icons/' + platform + '.png';
     this.togglePlatform();
   }
 }
