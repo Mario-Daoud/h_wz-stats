@@ -4,18 +4,29 @@
     <p>Enter a player's username to check their stats</p>
   </div>
   <div class="searchbar-input">
-    <input
-      [(ngModel)]="playerName"
-      type="text"
-      placeholder="Enter Tag"
-    />
-    <button (click)="getPlayerStats()"
-    >SEARCH</button>
-    <div class="platform-select">
-      <div>
-        PTF
+    <input [(ngModel)]="playerName" type="text" placeholder="Enter Tag" />
+    <button (click)="getPlayerStats()">SEARCH</button>
+    <div class="platform-select" (click)="togglePlatform()">
+      <div class="dropdown">
+        <img class="default-selector" [src]="selectImage" />
+        <div class="dropdown-content">
+          <a (click)="setPlatform('acitivision')"
+            ><img src="/assets/images/platform-icons/acitivision-icon.png"
+          /></a>
+          <a (click)="setPlatform('battlenet')"
+            ><img src="/assets/images/platform-icons/battlenet-icon.png"
+          /></a>
+          <a (click)="setPlatform('steam')"
+            ><img src="/assets/images/platform-icons/steam-icon.png"
+          /></a>
+          <a (click)="setPlatform('playstation')"
+            ><img src="/assets/images/platform-icons/playstation-icon.png"
+          /></a>
+          <a (click)="setPlatform('xbox')"
+            ><img src="/assets/images/platform-icons/xbox-icon.png"
+          /></a>
+        </div>
       </div>
     </div>
   </div>
-  
 </div>

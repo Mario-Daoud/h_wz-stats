@@ -28,7 +28,7 @@ button {
 
 button {
   position: absolute;
-  right: 53px;
+  right: 56px;
   height: 80%;
   padding-inline: 20px;
   color: white;
@@ -53,17 +53,53 @@ input[type="text"] {
   color: black;
   font-weight: 600;
   font-size: 1.1rem;
-}
-
-.platform-select div {
-  height: 50px;
-  width: 50px;
-  background-color: white;
-  border-radius: 5px;
+  margin-right: 5px;
 }
 
 @media (max-width: 515px) {
   input[type="text"] {
     font-size: 0.8rem;
   }
+}
+
+.platform-select {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  min-height: max-content;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: -255px;
+  width: 50px;
+  min-height: max-content;
+  background-color: white;
+  z-index: 1;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.dropdown-content img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  padding: 7px;
+}
+
+.dropdown-content img::before {
+  background-color: red;
+}
+
+.default-selector {
+  width: 50px;
+  height: 50px;
+  padding: 7px;
 }
