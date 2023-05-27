@@ -1,7 +1,16 @@
+.container {
+  margin-bottom: 10%;
+}
+
+.stats-head {
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+}
 
 .searchbar-input {
-    width: 60%;
-    margin: 0 auto;
+  width: 60%;
+  margin: 0 auto;
 }
 
 input[type="text"] {
