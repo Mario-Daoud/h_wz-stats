@@ -1,4 +1,4 @@
-<div *ngIf="playerStats !== null" class="container" [ngClass]="'fade-in'">
+<div *ngIf="playerStats !== null" class="stats-display container" [ngClass]="'fade-in'">
   <div class="header-container">
     <h3>{{ playerStats.data.username }}</h3>
     <h3>Level {{ playerStats.data.level }}</h3>
@@ -72,16 +72,70 @@
       <h3>Maps</h3>
       <div class="map-stats">
         <div class="mazrah-stats">
-          <img src="/assets/images/maps-images/alMazrah.jpeg" />
+          <img src="/assets/images/maps-images/alMazrah.jpeg" alt="map-image" />
+          <div class="map-stats-text">
+            <h5>Al Mazrah</h5>
+            <ul>
+              <li>
+                <span>Wins: </span
+                >{{ playerStats.data.lifetime.map.alMazrah.wins }}
+              </li>
+              <li>
+                <span>Kills: </span
+                >{{ playerStats.data.lifetime.map.alMazrah.kills }}
+              </li>
+              <li>
+                <span>Deaths: </span
+                >{{ playerStats.data.lifetime.map.alMazrah.deaths }}
+              </li>
+              <li>
+                <span>KD Ratio: </span
+                >{{ playerStats.data.lifetime.map.alMazrah.kdRatio }}
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="ashika-stats">
-          <img src="/assets/images/maps-images/ashikaIsland.jpg" />
+          <img
+            src="/assets/images/maps-images/ashikaIsland.jpg"
+            alt="map-image"
+          />
+          <div class="map-stats-text">
+            <h5>Ashika Island</h5>
+            <ul>
+              <li>
+                <span>Wins: </span
+                >{{ playerStats.data.lifetime.map.ashikaIsland.wins }}
+              </li>
+              <li>
+                <span>Kills: </span
+                >{{ playerStats.data.lifetime.map.ashikaIsland.kills }}
+              </li>
+              <li>
+                <span>Deaths: </span
+                >{{ playerStats.data.lifetime.map.ashikaIsland.deaths }}
+              </li>
+              <li>
+                <span>KD Ratio: </span
+                >{{ playerStats.data.lifetime.map.ashikaIsland.kdRatio }}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-    <div class="recent-stats-container">
-        <h3>Recent Performance</h3>
-
+  </div>
+  <div class="recent-stats-container">
+    <h3>Recent Performance</h3>
+    <div class="recent-stats">
+      <ul>
+        <li><span>Wins: </span>{{ playerStats.data.weekly.all.wins }}</li>
+        <li><span>Kills: </span>{{ playerStats.data.weekly.all.kills }}</li>
+        <li><span>Deaths: </span>{{ playerStats.data.weekly.all.deaths }}</li>
+        <li>
+          <span>KD Ratio: </span>{{ playerStats.data.weekly.all.kdRatio }}
+        </li>
+      </ul>
     </div>
   </div>
 </div>

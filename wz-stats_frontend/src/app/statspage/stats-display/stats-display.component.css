@@ -7,32 +7,7 @@
   border-radius: 10px;
   position: relative;
   backdrop-filter: blur(10px);
-}
-
-.container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.1;
-  background-image: url(/assets/images/GunPattern.png);
-  background-size: cover;
   border-radius: 10px;
-}
-
-.container:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
-
-.container {
   background-color: rgba(128, 128, 128, 0.1);
 }
 
@@ -43,7 +18,6 @@
 
 .header-container h3 {
   color: lightblue;
-  margin-right: 15px;
   background-color: rgba(128, 128, 128, 0.2);
   padding: 15px;
   border-radius: 10px;
@@ -51,8 +25,14 @@
   font-size: clamp(16px, 2vw, 20px);
 }
 
+.header-container h3:not(:last-child) {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
 .header-container h3:last-child {
   margin-left: auto;
+  margin-right: 5px;
 }
 
 .general-stats-container {
@@ -130,7 +110,7 @@
   padding: 15px;
   border-radius: 10px;
   margin: 5px;
-  width: 60%;
+  width: 100%;
 }
 
 .map-stats-container h3,
@@ -150,13 +130,43 @@
   width: 50%;
   padding: 10px;
   padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .mazrah-stats img,
 .ashika-stats img {
-  opacity: 1;
-  width: 100%;
+  width: 70%;
   border-radius: 5px;
+}
+
+.map-stats-text {
+  width: 30%;
+  padding-left: 10px;
+  color: white;
+}
+
+.map-stats-text ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.map-stats-text ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+.map-stats-text ul li span {
+  font-weight: bold;
+  color: lightblue;
+}
+
+.map-stats-text h5 {
+  border-bottom: 1px solid rgb(173, 216, 230, 0.5);
+  text-align: center;
+  color: lightblue;
 }
 
 .recent-stats-container {
@@ -164,7 +174,34 @@
   padding: 15px;
   border-radius: 10px;
   margin: 5px;
-  width: 40%;
+
+}
+
+.recent-stats {
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.recent-stats ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.recent-stats h3 {
+  border-bottom: 1px solid rgb(173, 216, 230, 0.5);
+  color: lightblue;
+}
+
+.recent-stats ul li {
+  padding: 5px;
+  color: white;
+}
+
+.recent-stats ul li span {
+  font-weight: bold;
+  color: lightblue;
 }
 
 @keyframes fadeInAnimation {

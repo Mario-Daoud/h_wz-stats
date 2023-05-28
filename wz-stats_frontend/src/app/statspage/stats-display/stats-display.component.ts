@@ -18,5 +18,14 @@ export class StatsDisplayComponent implements OnInit {
     this.commonService.getPlayerStats().subscribe((stats) => {
       this.playerStats = stats;
     });
+
+    const sr = ScrollReveal({
+      distance: '65px',
+      duration: 2600,
+      delay: 300,
+      reset: true,
+    });
+
+    sr.reveal('.stats-display', { delay: 200, origin: 'left' });
   }
 }

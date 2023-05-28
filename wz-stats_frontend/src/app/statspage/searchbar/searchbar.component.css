@@ -93,6 +93,17 @@ input[type="text"] {
   transition: opacity 500ms ease-in-out;
 }
 
+.dropdown-content a img {
+  transition: transform 300ms ease;
+}
+.dropdown-content a:hover {
+  cursor: pointer;
+}
+
+.dropdown-content a img:active {
+  transform: scale(0.8);
+}
+
 .dropdown-content img {
   width: 50px;
   height: 50px;
@@ -113,16 +124,4 @@ input[type="text"] {
 
 .default-selector:active {
   transform: scale(0.93);
-}
-
-.dropdown-content a img {
-  transition: transform 300ms ease;
-
-}
-.dropdown-content a:hover {
-  cursor: pointer;
-}
-
-.dropdown-content a img:active {
-  transform: scale(0.8);
 }
