@@ -1,0 +1,87 @@
+<div *ngIf="playerStats !== null" class="container" [ngClass]="'fade-in'">
+  <div class="header-container">
+    <h3>{{ playerStats.data.username }}</h3>
+    <h3>Level {{ playerStats.data.level }}</h3>
+    <h3>Platform: {{ playerStats.data.platform }}</h3>
+  </div>
+  <div class="general-stats-container">
+    <div class="lifetime">
+      <h3>Lifetime statistics</h3>
+      <div class="col">
+        <ul>
+          <li><span>Wins: </span>{{ playerStats.data.lifetime.all.wins }}</li>
+          <li><span>Kills: </span>{{ playerStats.data.lifetime.all.kills }}</li>
+          <li>
+            <span>Deaths: </span>{{ playerStats.data.lifetime.all.deaths }}
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li>
+            <span>KD Ratio: </span>{{ playerStats.data.lifetime.all.kdRatio }}
+          </li>
+          <li><span>Total XP: </span>{{ playerStats.data.totalXp }}</li>
+          <li><span>Engagement: </span>{{ playerStats.data.engagement }}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="battleroyale">
+      <h3>Battle Royale</h3>
+      <ul>
+        <li>
+          <span>Wins: </span
+          >{{ playerStats.data.lifetime.mode.battleRoyale.wins }}
+        </li>
+        <li>
+          <span>Kills: </span
+          >{{ playerStats.data.lifetime.mode.battleRoyale.kills }}
+        </li>
+        <li>
+          <span>Deaths: </span
+          >{{ playerStats.data.lifetime.mode.battleRoyale.deaths }}
+        </li>
+        <li>
+          <span>KD Ratio: </span
+          >{{ playerStats.data.lifetime.mode.battleRoyale.kdRatio }}
+        </li>
+      </ul>
+    </div>
+    <div class="plunder">
+      <h3>Plunder</h3>
+      <ul>
+        <li>
+          <span>Wins: </span>{{ playerStats.data.lifetime.mode.plunder.wins }}
+        </li>
+        <li>
+          <span>Kills: </span>{{ playerStats.data.lifetime.mode.plunder.kills }}
+        </li>
+        <li>
+          <span>Deaths: </span
+          >{{ playerStats.data.lifetime.mode.plunder.deaths }}
+        </li>
+        <li>
+          <span>KD Ratio: </span
+          >{{ playerStats.data.lifetime.mode.plunder.kdRatio }}
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="map-and-recent-container">
+    <div class="map-stats-container">
+      <h3>Maps</h3>
+      <div class="map-stats">
+        <div class="mazrah-stats">
+          <img src="/assets/images/maps-images/alMazrah.jpeg" />
+        </div>
+        <div class="ashika-stats">
+          <img src="/assets/images/maps-images/ashikaIsland.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="recent-stats-container">
+        <h3>Recent Performance</h3>
+
+    </div>
+  </div>
+</div>

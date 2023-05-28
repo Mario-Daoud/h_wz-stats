@@ -1,5 +1,5 @@
 .container {
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 .stats-head {
@@ -104,4 +104,25 @@ input[type="text"] {
   width: 50px;
   height: 50px;
   padding: 7px;
+  transition: transform 300ms ease;
+}
+
+.default-selector:hover {
+  cursor: pointer;
+}
+
+.default-selector:active {
+  transform: scale(0.93);
+}
+
+.dropdown-content a img {
+  transition: transform 300ms ease;
+
+}
+.dropdown-content a:hover {
+  cursor: pointer;
+}
+
+.dropdown-content a img:active {
+  transform: scale(0.8);
 }

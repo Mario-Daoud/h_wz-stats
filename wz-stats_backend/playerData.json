@@ -71,7 +71,7 @@
     "status": "success",
     "data": {
       "title": "Call of Duty: Warzone",
-      "platform": "Xbox Series X",
+      "platform": "Xbox",
       "username": "GHOST#9512368",
       "type": "wz2",
       "level": 105,
@@ -207,7 +207,7 @@
     "status": "success",
     "data": {
       "title": "Call of Duty: Warzone",
-      "platform": "Xbox Series X",
+      "platform": "Xbox",
       "username": "GUNSLINGER#8932156",
       "type": "wz2",
       "level": 85,
@@ -275,7 +275,7 @@
     "status": "success",
     "data": {
       "title": "Call of Duty: Warzone",
-      "platform": "PlayStation 5",
+      "platform": "PlayStation",
       "username": "SHADOWSTRIKE#6178942",
       "type": "wz2",
       "level": 155,

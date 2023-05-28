@@ -56,7 +56,7 @@ export class SearchbarComponent implements OnInit {
       dropdownContent.style.display = 'block';
       setTimeout(() => {
         dropdownContent.style.opacity = '1';
-      }, 300);
+      }, 0);
     }
   }
 

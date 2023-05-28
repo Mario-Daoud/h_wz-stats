@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/internal/Observable';
 import { CommonService } from 'src/app/shared/common/common.service';
 import { Player } from 'src/app/shared/player/player.model';
+import ScrollReveal from 'scrollreveal';
 
 @Component({
   selector: 'app-stats-display',
@@ -9,6 +9,7 @@ import { Player } from 'src/app/shared/player/player.model';
   styleUrls: ['./stats-display.component.css'],
 })
 export class StatsDisplayComponent implements OnInit {
+  
   playerStats: Player | null;
 
   constructor(private commonService: CommonService) {}
