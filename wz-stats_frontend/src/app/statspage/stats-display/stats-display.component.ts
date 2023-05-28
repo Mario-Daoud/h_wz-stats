@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/internal/Observable';
 import { CommonService } from 'src/app/shared/common/common.service';
 import { Player } from 'src/app/shared/player/player.model';
 
@@ -8,16 +9,13 @@ import { Player } from 'src/app/shared/player/player.model';
   styleUrls: ['./stats-display.component.css'],
 })
 export class StatsDisplayComponent implements OnInit {
-  playerStats: Player;
+  playerStats: Player | null;
 
-  constructor(public commonService: CommonService) {}
+  constructor(private commonService: CommonService) {}
 
   ngOnInit(): void {
-    this.playerStats = null;
-  }
-
-  displayPlayerStats(): void {
-    this.playerStats = this.commonService.getPlayerStats();
-    console.log('player stats: ', this.playerStats);
+    this.commonService.getPlayerStats().subscribe((stats) => {
+      this.playerStats = stats;
+    });
   }
 }
