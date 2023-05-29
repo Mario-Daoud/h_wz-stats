@@ -3,6 +3,13 @@
 <p>Used dummy data due to lack of available CoD statistics api's</p>
 
 ## Preview
+### Dummy Users
+* FARO#7420497 - Activision
+* GHOST#9512368 - Xbox
+* RAVEN#7894561 - Steam
+* GUNSLINGER#8932156 - Xbox
+* SHADOWSTRIKE#6178942 - PlayStation
+
 ### Landing page
 ![landing](https://github.com/Mario-Daoud/hprj_wz-stats/assets/113902874/37e85e8f-5abc-4f36-b912-eac275ed5885)
 
@@ -14,5 +21,6 @@
 ![stats-1](https://github.com/Mario-Daoud/hprj_wz-stats/assets/113902874/1b444236-27f7-4d6e-bea2-2facaa36301c)
 #### Fill in tag and select platform
 ![stats-2](https://github.com/Mario-Daoud/hprj_wz-stats/assets/113902874/07721a18-5992-4712-9261-bcbce53e5aa5)
-#### Filled in form
+#### Filled in form and Result
 ![stats-3](https://github.com/Mario-Daoud/hprj_wz-stats/assets/113902874/b1cd5465-cc43-49fb-bf4e-571afc00fd2d)
+![result](https://github.com/Mario-Daoud/hprj_wz-stats/assets/113902874/a693d57a-e0eb-4674-8e90-ce5fcb9bfaeb)
