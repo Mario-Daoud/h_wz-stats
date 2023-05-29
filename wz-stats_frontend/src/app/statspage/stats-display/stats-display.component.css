@@ -137,6 +137,7 @@
 .mazrah-stats img,
 .ashika-stats img {
   width: 70%;
+  height: auto;
   border-radius: 5px;
 }
 
@@ -154,8 +155,8 @@
 }
 
 .map-stats-text ul li {
-    padding: 5px;
-    text-align: center;
+  padding: 5px;
+  text-align: center;
 }
 
 .map-stats-text ul li span {
@@ -174,7 +175,6 @@
   padding: 15px;
   border-radius: 10px;
   margin: 5px;
-
 }
 
 .recent-stats {
@@ -211,4 +211,7 @@
   100% {
     opacity: 1;
   }
+}
+
+@media (max-width: 1205) {
 }

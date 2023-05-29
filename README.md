@@ -3,13 +3,6 @@
 <p>Used dummy data due to lack of available CoD statistics api's</p>
 
 ## Preview
-### Dummy Users
-* FARO#7420497 - Activision
-* GHOST#9512368 - Xbox
-* RAVEN#7894561 - Steam
-* GUNSLINGER#8932156 - Xbox
-* SHADOWSTRIKE#6178942 - PlayStation
-
 ### Landing page
 ![landing](https://github.com/Mario-Daoud/hprj_wz-stats/assets/113902874/37e85e8f-5abc-4f36-b912-eac275ed5885)
 
