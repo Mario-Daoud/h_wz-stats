@@ -1,5 +1,5 @@
 # WARZONE - STATS
-<p>Sideproject Angular app made to check cod warzone stats</p>
+<p>Web app made to check cod warzone stats</p>
 <p>Made custom back end with dummy data due to lack of available CoD statistics api's</p>
 
 ## Preview
